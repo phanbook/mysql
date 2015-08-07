@@ -17,7 +17,6 @@ ADD phanbook.sql /tmp/phanbook.sql
 ADD run.sh /tmp/run.sh
 RUN chmod 775 /tmp/run.sh
 
-
 # Add VOLUMEs to allow backup of config and databases
 VOLUME  ["/opt/data/mysql", "/var/lib/mysql"]
 
